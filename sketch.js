@@ -28,7 +28,7 @@ function setup() {
   ];
   //boatSP(width/2,height/2,400,270) //  recusively set size and positions of boats
   //frameRate(10)
-  drawShape(width/2,height/2,350,4) // d is the height the wwidth is 1.2 * longer
+  drawShape(width/2,height/2,350,3) // d is the height the wwidth is 1.2 * longer
   cursor(CROSS)
    
 }
