@@ -37,8 +37,11 @@ class Pb {
         }
     }
     show(){
-        
-        image(img,this.x,this.y,this.w,this.h)
+        push()
+        translate(this.x,this.y)
+        rotate(frameCount)
+        image(img,0,0,this.w,this.h)
+        pop()
     }
 
     goback(){

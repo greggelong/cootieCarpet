@@ -3,13 +3,14 @@ let clr
 let boats =[]
 
 function preload(){
-  img = loadImage("coot1b.png")
+  img = loadImage("coot.png")
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER)
   angleMode(DEGREES)
+  pixelDensity(1)
   clr = [
     color(255, 187, 153), // Peach
     color(255, 102, 102), // Coral
