@@ -36,6 +36,14 @@ function setup() {
 
 function draw() {
   background(74);
+  stroke(255,0,0)
+  strokeWeight(10);
+  line(width/2,0,width/2,height)
+  noStroke()
+  fill(255)
+  textSize(50)
+  text("ORDER", width/4-100,100)
+  text("CHAOS", (width-width/4)-100,100)
   for(let i = 0; i<boats.length;i++){
     boats[i].show()
      
